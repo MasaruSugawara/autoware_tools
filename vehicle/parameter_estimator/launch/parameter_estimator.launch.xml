@@ -5,7 +5,6 @@
   <arg name="select_steer_offset_estimator" default="true" description="Select steer offset estimator"/>
   <arg name="select_wheel_base_estimator" default="true" description="Select wheel base estimator"/>
   <arg name="invert_imu_z" default="true" description="Invert z-angular velocity from imu"/>
-  
 
   <!-- get wheel base from vehicle info -->
   <include file="$(find-pkg-share global_parameter_loader)/launch/global_params.launch.py">
